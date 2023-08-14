@@ -7,6 +7,37 @@
   <title>Simple Tailwind Starter</title>
 </head>
 <body>
-  <h1 class="text-3xl ">Simple Tailwind Starter</h1>
+  <!-- Global Container  -->
+  <div class="flex justify-center items-center min-h-screen bg-slate-100">
+    <div class="flex p-6 bg-white rounded-xl shadow-xl space-x-3">
+      <div>
+        <img src="images/copy of profile.png" alt="" class="w-20 h-20 rounded-full border-4 order-gray-500">
+      </div>
+      
+      <!-- Content -->
+      <div class="flex flex-col">
+      <!-- Title Content -->
+      <div class="flex flex-col space-y-2 mb-4">
+        <h1 class="font-mono font-bold">Muhammad Haiqal</h1>
+        <p class="text-sm">3D Artist</p>
+      </div>
+      <!-- Stats -->
+      <div class="flex flex-col space-y-3 text-sm">
+        <div class="flex items-center space-x-2">
+          <img src="images/Star.png" alt="" class="w-6 h-6">
+          <span>4.7 Rating</span>
+        </div>
+        <div class="flex items-center space-x-2">
+          <img src="images/medalion.png" alt="" class="w-6 h-6">
+          <span>4,447 Reviews</span>
+        </div>
+        <div class="flex items-center space-x-2">
+          <img src="images/person.png" alt="" class="w-6 h-6">
+          <span>478 Students</span>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
 </body>
 </html>
